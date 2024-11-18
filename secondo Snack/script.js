@@ -9,7 +9,6 @@
  while (i !== 5) {
   let inputNumeri = parseInt(prompt('inserisci un numero'))
   somma += inputNumeri;
-  
   i++
 }
  console.log('La somma è pari a', somma)
@@ -17,11 +16,11 @@
 
 // ALTERNATIVA
 
-let sommatoria = 0;
+
+let sum = 0;
 
 for (let i = 0; i < 5; i++) {
   let insNumero = parseInt(prompt('Inserisci un numero'))
-  sommatoria += insNumero
+  sum += insNumero
 }
-
-console.log('la somma è pari a', sommatoria)
+console.log('la somma è pari a', sum)
